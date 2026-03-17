@@ -1,0 +1,71 @@
+<svg width="645" height="646" viewBox="0 0 645 646" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <style>
+      .layer-slow   { transform-origin: 322.5px 323.0px; animation: spin-cw  20s linear infinite; }
+      .layer-medium { transform-origin: 322.5px 323.0px; animation: spin-ccw 13s linear infinite; }
+      .layer-fast   { transform-origin: 322.5px 323.0px; animation: spin-cw   8s linear infinite; }
+      .layer-vslow  { transform-origin: 322.5px 323.0px; animation: spin-ccw 30s linear infinite; }
+      .layer-pulse  { transform-origin: 322.5px 323.0px; animation: pulse-scale 4s ease-in-out infinite; }
+      .layer-static { }
+      @keyframes spin-cw   { from { transform: rotate(0deg);   } to { transform: rotate(360deg);  } }
+      @keyframes spin-ccw  { from { transform: rotate(0deg);   } to { transform: rotate(-360deg); } }
+      @keyframes pulse-scale { 0%,100% { transform: scale(1); } 50% { transform: scale(1.06); } }
+    </style>
+  </defs>
+<circle class="layer-vslow" cx="322.5" cy="323.0" r="268" stroke="black" stroke-width="1.8" fill="none"/>
+<ellipse class="layer-slow" cx="322.5" cy="323.0" rx="260" ry="260" stroke="black" stroke-width="1.1" fill="none" transform="rotate(0 322.5 323.0)"/>
+<ellipse class="layer-medium" cx="322.5" cy="323.0" rx="260" ry="120" stroke="black" stroke-width="1.1" fill="none" transform="rotate(0 322.5 323.0)"/>
+<ellipse class="layer-fast" cx="322.5" cy="323.0" rx="260" ry="120" stroke="black" stroke-width="1.1" fill="none" transform="rotate(45 322.5 323.0)"/>
+<ellipse class="layer-medium" cx="322.5" cy="323.0" rx="260" ry="120" stroke="black" stroke-width="1.1" fill="none" transform="rotate(90 322.5 323.0)"/>
+<ellipse class="layer-slow" cx="322.5" cy="323.0" rx="260" ry="120" stroke="black" stroke-width="1.1" fill="none" transform="rotate(135 322.5 323.0)"/>
+<ellipse class="layer-fast" cx="322.5" cy="323.0" rx="180" ry="80" stroke="black" stroke-width="1.1" fill="none" transform="rotate(20 322.5 323.0)"/>
+<ellipse class="layer-medium" cx="322.5" cy="323.0" rx="130" ry="50" stroke="black" stroke-width="1.1" fill="none" transform="rotate(70 322.5 323.0)"/>
+<circle class="layer-fast" cx="322.5" cy="323.0" r="90" stroke="black" stroke-width="0.9" fill="none"/>
+<circle class="layer-fast" cx="322.5" cy="323.0" r="50" stroke="black" stroke-width="0.9" fill="none"/>
+<line class="layer-slow" x1="582.50" y1="323.00" x2="600.50" y2="323.00" stroke="black" stroke-width="1.2"/>
+<line class="layer-slow" x1="578.55" y1="368.15" x2="596.28" y2="371.27" stroke="black" stroke-width="1.2"/>
+<line class="layer-slow" x1="566.82" y1="411.93" x2="583.73" y2="418.08" stroke="black" stroke-width="1.2"/>
+<line class="layer-slow" x1="547.67" y1="453.00" x2="563.26" y2="462.00" stroke="black" stroke-width="1.2"/>
+<line class="layer-slow" x1="521.67" y1="490.12" x2="535.46" y2="501.69" stroke="black" stroke-width="1.2"/>
+<line class="layer-slow" x1="489.62" y1="522.17" x2="501.19" y2="535.96" stroke="black" stroke-width="1.2"/>
+<line class="layer-slow" x1="452.50" y1="548.17" x2="461.50" y2="563.76" stroke="black" stroke-width="1.2"/>
+<line class="layer-slow" x1="411.43" y1="567.32" x2="417.58" y2="584.23" stroke="black" stroke-width="1.2"/>
+<line class="layer-slow" x1="367.65" y1="579.05" x2="370.77" y2="596.78" stroke="black" stroke-width="1.2"/>
+<line class="layer-slow" x1="322.50" y1="583.00" x2="322.50" y2="601.00" stroke="black" stroke-width="1.2"/>
+<line class="layer-slow" x1="277.35" y1="579.05" x2="274.23" y2="596.78" stroke="black" stroke-width="1.2"/>
+<line class="layer-slow" x1="233.57" y1="567.32" x2="227.42" y2="584.23" stroke="black" stroke-width="1.2"/>
+<line class="layer-slow" x1="192.50" y1="548.17" x2="183.50" y2="563.76" stroke="black" stroke-width="1.2"/>
+<line class="layer-slow" x1="155.38" y1="522.17" x2="143.81" y2="535.96" stroke="black" stroke-width="1.2"/>
+<line class="layer-slow" x1="123.33" y1="490.12" x2="109.54" y2="501.69" stroke="black" stroke-width="1.2"/>
+<line class="layer-slow" x1="97.33" y1="453.00" x2="81.74" y2="462.00" stroke="black" stroke-width="1.2"/>
+<line class="layer-slow" x1="78.18" y1="411.93" x2="61.27" y2="418.08" stroke="black" stroke-width="1.2"/>
+<line class="layer-slow" x1="66.45" y1="368.15" x2="48.72" y2="371.27" stroke="black" stroke-width="1.2"/>
+<line class="layer-slow" x1="62.50" y1="323.00" x2="44.50" y2="323.00" stroke="black" stroke-width="1.2"/>
+<line class="layer-slow" x1="66.45" y1="277.85" x2="48.72" y2="274.73" stroke="black" stroke-width="1.2"/>
+<line class="layer-slow" x1="78.18" y1="234.07" x2="61.27" y2="227.92" stroke="black" stroke-width="1.2"/>
+<line class="layer-slow" x1="97.33" y1="193.00" x2="81.74" y2="184.00" stroke="black" stroke-width="1.2"/>
+<line class="layer-slow" x1="123.33" y1="155.88" x2="109.54" y2="144.31" stroke="black" stroke-width="1.2"/>
+<line class="layer-slow" x1="155.38" y1="123.83" x2="143.81" y2="110.04" stroke="black" stroke-width="1.2"/>
+<line class="layer-slow" x1="192.50" y1="97.83" x2="183.50" y2="82.24" stroke="black" stroke-width="1.2"/>
+<line class="layer-slow" x1="233.57" y1="78.68" x2="227.42" y2="61.77" stroke="black" stroke-width="1.2"/>
+<line class="layer-slow" x1="277.35" y1="66.95" x2="274.23" y2="49.22" stroke="black" stroke-width="1.2"/>
+<line class="layer-slow" x1="322.50" y1="63.00" x2="322.50" y2="45.00" stroke="black" stroke-width="1.2"/>
+<line class="layer-slow" x1="367.65" y1="66.95" x2="370.77" y2="49.22" stroke="black" stroke-width="1.2"/>
+<line class="layer-slow" x1="411.43" y1="78.68" x2="417.58" y2="61.77" stroke="black" stroke-width="1.2"/>
+<line class="layer-slow" x1="452.50" y1="97.83" x2="461.50" y2="82.24" stroke="black" stroke-width="1.2"/>
+<line class="layer-slow" x1="489.62" y1="123.83" x2="501.19" y2="110.04" stroke="black" stroke-width="1.2"/>
+<line class="layer-slow" x1="521.67" y1="155.88" x2="535.46" y2="144.31" stroke="black" stroke-width="1.2"/>
+<line class="layer-slow" x1="547.67" y1="193.00" x2="563.26" y2="184.00" stroke="black" stroke-width="1.2"/>
+<line class="layer-slow" x1="566.82" y1="234.07" x2="583.73" y2="227.92" stroke="black" stroke-width="1.2"/>
+<line class="layer-slow" x1="578.55" y1="277.85" x2="596.28" y2="274.73" stroke="black" stroke-width="1.2"/>
+<circle class="layer-slow" cx="547.67" cy="453.00" r="8" fill="black"/>
+<circle class="layer-medium" cx="181.09" cy="491.53" r="6" fill="black"/>
+<circle class="layer-fast" cx="184.61" cy="207.30" r="7" fill="black"/>
+<circle class="layer-medium" cx="406.06" cy="223.41" r="5" fill="black"/>
+<circle class="layer-slow" cx="338.13" cy="411.63" r="9" fill="black"/>
+<line class="layer-static" x1="322.5" y1="10" x2="322.5" y2="636" stroke="black" stroke-width="0.4"/>
+<line class="layer-static" x1="10" y1="323.0" x2="635" y2="323.0" stroke="black" stroke-width="0.4"/>
+<circle class="layer-pulse" cx="322.50" cy="323.00" r="26" fill="black"/>
+<circle class="layer-fast" cx="322.50" cy="323.00" r="10" fill="black"/>
+</svg>

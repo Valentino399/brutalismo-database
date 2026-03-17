@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monumentos Spomenik | BRUTALISMO_DATABASE</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Barlow+Condensed:wght@300;400;600;700;900&family=IBM+Plex+Mono:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style_monumentos.css">
+</head>
+<body>
+    <div class="ticker">
+        <div class="ticker-inner" id="ticker-inner">
+            <span class="ticker-item">BRUTALISMO_DATABASE <span>·</span> EST. 2026</span>
+            <span class="ticker-item">COLECCIÓN 01 <span>MONUMENTOS YUGOSLAVOS</span></span>
+            <span class="ticker-item">10 ESTRUTURAS DOCUMENTADAS</span>
+            <span class="ticker-item">HORMIGÓN CRUDO <span>·</span> BÉTON BRUT</span>
+            <span class="ticker-item">1945 — 1985</span>
+            <span class="ticker-item">ARCHIVO DE ARQUITECTURA BRUTALISTA</span>
+            <span class="ticker-item">VALENTINO LORENTI <span>·</span> 2026</span>
+            <span class="ticker-item">COLECCIÓN 02 <span>EDIFICIOS BRUTALISTAS</span></span>
+            <!-- Duplicado para loop -->
+            <span class="ticker-item">BRUTALISMO_DATABASE <span>·</span> EST. 2026</span>
+            <span class="ticker-item">COLECCIÓN 01 <span>MONUMENTOS YUGOSLAVOS</span></span>
+            <span class="ticker-item">10 ESTRUTURAS DOCUMENTADAS</span>
+            <span class="ticker-item">HORMIGÓN CRUDO <span>·</span> BÉTON BRUT</span>
+            <span class="ticker-item">1945 — 1985</span>
+            <span class="ticker-item">ARCHIVO DE ARQUITECTURA BRUTALISTA</span>
+            <span class="ticker-item">VALENTINO LORENTI <span>·</span> 2026</span>
+            <span class="ticker-item">COLECCIÓN 02 <span>EDIFICIOS BRUTALISTAS</span></span>
+        </div>
+    </div>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-inner">
+            <div class="nav-logo-block">
+                <a href="/" class="nav-logo-link">
+                    <img src="/assets/svg/logo/logo_blanco.svg" alt="Brutalismo Database" class="nav-logo-img">
+                </a>
+            </div>
+            <div class="nav-center">
+                <a href="/index.html" class="nav-center-item">Index</a>
+                <a href="/index.html#features" class="nav-center-item">Características</a>
+                <a href="/index.html#archive" class="nav-center-item">Archivo</a>
+                <a href="/index.html#manifesto" class="nav-center-item">Manifiesto</a>
+            </div>
+            <div class="nav-right">
+                <div class="nav-counter">
+                    <span class="nav-counter-num">10</span>
+                    <span class="nav-counter-label">estructuras</span>
+                </div>
+                <button class="nav-hamburger" id="nav-hamburger" aria-label="Abrir menú">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-menu-inner">
+            <div class="mobile-menu-header">
+                <img src="/assets/svg/logo/logo_negro.svg" alt="Brutalismo Database" class="mobile-menu-logo">
+                <button class="mobile-menu-close" id="mobile-menu-close" aria-label="Cerrar menú">✕</button>
+            </div>
+            <nav class="mobile-nav">
+                <a href="/index.html" class="mobile-nav-item" data-index="01">
+                    <span class="mobile-nav-num">01</span>
+                    <span class="mobile-nav-text">Index</span>
+                    <span class="mobile-nav-arrow">↗</span>
+                </a>
+                <a href="/index.html#features" class="mobile-nav-item" data-index="02">
+                    <span class="mobile-nav-num">02</span>
+                    <span class="mobile-nav-text">Características</span>
+                    <span class="mobile-nav-arrow">↗</span>
+                </a>
+                <a href="/pages/monumentos.html" class="mobile-nav-item" data-index="03">
+                    <span class="mobile-nav-num">03</span>
+                    <span class="mobile-nav-text">Archivo</span>
+                    <span class="mobile-nav-arrow">↗</span>
+                </a>
+                <a href="/index.html#manifesto" class="mobile-nav-item" data-index="04">
+                    <span class="mobile-nav-num">04</span>
+                    <span class="mobile-nav-text">Manifiesto</span>
+                    <span class="mobile-nav-arrow">↗</span>
+                </a>
+            </nav>
+            <div class="mobile-menu-footer">
+                <span class="mobile-menu-footer-text">Brutalismo_Database — EST. 2026</span>
+                <span class="mobile-menu-footer-text">Valentino Lorenti</span>
+            </div>
+        </div>
+    </div>
+
+    <section class="hero-banner" id="hero">
+        <div class="banner-noise"></div>
+        <div class="banner-overlay">
+            <div class="banner-meta-top">
+                <span class="mono">Archivo — 001</span>
+                <span class="mono banner-date">Yugoslavia · 1945–1985</span>
+            </div>
+            <div class="banner-title-block">
+                <h1>Monumentos<br><em>Spomenik</em></h1>
+            </div>
+            <div class="banner-meta-bottom">
+                <div class="banner-stat">
+                    <span class="banner-stat-num">10</span>
+                    <span class="mono banner-stat-label">Estructuras documentadas</span>
+                </div>
+                <div class="banner-scroll-hint">
+                    <span class="mono">Desplaza para explorar</span>
+                    <div class="banner-scroll-arrow">↓</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <nav class="side-pagination" id="side-nav" aria-label="Monumentos"></nav>
+
+    <nav class="bottom-nav" id="bottom-nav" aria-label="Monumentos móvil"></nav>
+
+    <main class="canvas-container" id="main-section">
+        <div class="figma-frame" id="main-content">
+
+            <div class="frame-left">
+                <div class="panel-header">
+                    <div class="panel-header-cell">
+                        <span class="mono cell-label">Artista</span>
+                        <span class="artist-label cell-value">—</span>
+                    </div>
+                    <div class="panel-header-divider"></div>
+                    <div class="panel-header-cell panel-header-cell--right">
+                        <span class="mono cell-label">Año</span>
+                        <span class="year-tag cell-value">—</span>
+                    </div>
+                </div>
+
+                <div class="svg-container">
+                    <div class="svg-frame-corners">
+                        <div class="corner tl"></div>
+                        <div class="corner tr"></div>
+                        <div class="corner bl"></div>
+                        <div class="corner br"></div>
+                    </div>
+                    <img src="/assets/svg/animated/1_animated.svg" alt="Diagrama técnico" class="tech-svg">
+                    <div class="svg-label-tl mono">DIAGRAMA ESTRUCTURAL</div>
+                    <div class="svg-label-br mono" id="svg-scale">ESC. 1:∞</div>
+                </div>
+
+                <div class="info-block">
+                    <div class="info-title-row">
+                        <h2 class="monument-title">—</h2>
+                    </div>
+                    <div class="info-desc-row">
+                        <div class="info-desc-label">
+                            <span class="mono">Descripción</span>
+                            <div class="info-desc-line"></div>
+                        </div>
+                        <div class="info-desc-box">
+                            <p class="mono-desc">Selecciona un monumento para ver su descripción.</p>
+                        </div>
+                        <div class="info-location">
+                            <span class="mono location-prefix">↳ Ubicación</span>
+                            <span class="mono-loc">—</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="node tl"></div>
+                <div class="node bl"></div>
+            </div>
+
+            <div class="frame-right">
+                <div class="image-shell">
+                    <div class="image-bg" id="monument-img"></div>
+                    <div class="image-vignette"></div>
+                    <div class="image-top-bar">
+                        <span class="mono img-id">IMG_MNMT_001</span>
+                        <span class="mono img-counter" id="img-counter">01 / 10</span>
+                    </div>
+                    <div class="image-bottom-bar">
+                        <span class="mono">ARCHIVO FOTOGRÁFICO</span>
+                        <div class="image-dots" id="img-dots"></div>
+                    </div>
+                </div>
+                <div class="node tr"></div>
+                <div class="node br"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-col">
+                <span class="mono footer-label">Proyecto</span>
+                <p class="footer-title">Brutalismo<br>Database</p>
+                <p class="mono footer-sub">Valentino Lorenti © 2026</p>
+                <a href="https://valentinolorenti.netlify.app/" class="footer-link" target="_blank"> Portfolio ↗ </a>
+            </div>
+            <div class="footer-col">
+                <span class="mono footer-label">Sobre el archivo</span>
+                <p class="footer-body"> 
+                Archivo dedicado a monumentos del brutalismo yugoslavo. 
+                Estructuras monumentales de hormigón que transforman el paisaje 
+                en símbolos de memoria colectiva, historia y expresión política.</p>
+            </div>
+            <div class="footer-col">
+                <span class="mono footer-label">Contacto</span>
+                <a href="https://www.linkedin.com/in/valentino-lorenti-ux/" class="footer-link" target="_blank"> LinkedIn </a>
+                <a href="https://www.behance.net/LV_DesignUX" class="footer-link" target="_blank"> Behance </a>
+                <a href="https://www.instagram.com/lv_designux" class="footer-link" target="_blank"> Instagram </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span class="mono">BRUTALISMO_DATABASE — TODOS LOS DERECHOS RESERVADOS</span>
+            <span class="mono">BUILD 2026.001</span>
+        </div>
+    </footer>
+
+    <script src="/assets/js/script_monumentos.js"></script>
+
+</body>
+</html>
