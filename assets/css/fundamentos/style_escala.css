@@ -27,7 +27,7 @@ a,button{cursor:crosshair}
 .mob-menu{position:fixed;inset:0;z-index:2100;background:var(--ink);transform:translateX(100%);transition:transform .5s cubic-bezier(.76,0,.24,1);pointer-events:none;display:flex;flex-direction:column}
 .mob-menu.open{transform:translateX(0);pointer-events:all}
 .mob-header{display:flex;align-items:center;justify-content:space-between;padding:0 28px;height:var(--nav-h);border-bottom:1px solid rgba(255,255,255,.1);flex-shrink:0}
-.mob-logo{height:20px;filter:invert(1)}
+.mob-logo{height:40px;}
 .mob-close{background:none;border:none;font-family:var(--font-mono);font-size:16px;color:rgba(255,255,255,.5);cursor:crosshair;padding:8px}
 .mob-close:hover{color:#fff}
 .mob-nav{flex:1;display:flex;flex-direction:column}
